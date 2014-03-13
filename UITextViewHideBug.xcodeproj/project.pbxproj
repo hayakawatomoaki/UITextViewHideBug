@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B17159AF18D19993001DD69D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17159AE18D19993001DD69D /* Foundation.framework */; };
+		B17159B118D19993001DD69D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17159B018D19993001DD69D /* CoreGraphics.framework */; };
+		B17159B318D19993001DD69D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17159B218D19993001DD69D /* UIKit.framework */; };
+		B17159B918D19993001DD69D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B17159B718D19993001DD69D /* InfoPlist.strings */; };
+		B17159BB18D19993001DD69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B17159BA18D19993001DD69D /* main.m */; };
+		B17159BF18D19993001DD69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B17159BE18D19993001DD69D /* AppDelegate.m */; };
+		B17159C818D19993001DD69D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B17159C718D19993001DD69D /* ViewController.m */; };
+		B17159CA18D19993001DD69D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B17159C918D19993001DD69D /* Images.xcassets */; };
+		B17159D118D19993001DD69D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17159D018D19993001DD69D /* XCTest.framework */; };
+		B17159D218D19993001DD69D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17159AE18D19993001DD69D /* Foundation.framework */; };
+		B17159D318D19993001DD69D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17159B218D19993001DD69D /* UIKit.framework */; };
+		B17159DB18D19993001DD69D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B17159D918D19993001DD69D /* InfoPlist.strings */; };
+		B17159DD18D19993001DD69D /* UITextViewHideBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B17159DC18D19993001DD69D /* UITextViewHideBugTests.m */; };
+		B17159E818D1B6D9001DD69D /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B17159E718D1B6D9001DD69D /* MyTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B17159D418D19993001DD69D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B17159A318D19992001DD69D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17159AA18D19993001DD69D;
+			remoteInfo = UITextViewHideBug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B17159AB18D19993001DD69D /* UITextViewHideBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextViewHideBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17159AE18D19993001DD69D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B17159B018D19993001DD69D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B17159B218D19993001DD69D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B17159B618D19993001DD69D /* UITextViewHideBug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITextViewHideBug-Info.plist"; sourceTree = "<group>"; };
+		B17159B818D19993001DD69D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B17159BA18D19993001DD69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B17159BC18D19993001DD69D /* UITextViewHideBug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextViewHideBug-Prefix.pch"; sourceTree = "<group>"; };
+		B17159BD18D19993001DD69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B17159BE18D19993001DD69D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B17159C618D19993001DD69D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B17159C718D19993001DD69D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B17159C918D19993001DD69D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B17159CF18D19993001DD69D /* UITextViewHideBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextViewHideBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17159D018D19993001DD69D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B17159D818D19993001DD69D /* UITextViewHideBugTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITextViewHideBugTests-Info.plist"; sourceTree = "<group>"; };
+		B17159DA18D19993001DD69D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B17159DC18D19993001DD69D /* UITextViewHideBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextViewHideBugTests.m; sourceTree = "<group>"; };
+		B17159E618D1B6D9001DD69D /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextView.h; sourceTree = "<group>"; };
+		B17159E718D1B6D9001DD69D /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B17159A818D19992001DD69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17159B118D19993001DD69D /* CoreGraphics.framework in Frameworks */,
+				B17159B318D19993001DD69D /* UIKit.framework in Frameworks */,
+				B17159AF18D19993001DD69D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17159CC18D19993001DD69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17159D118D19993001DD69D /* XCTest.framework in Frameworks */,
+				B17159D318D19993001DD69D /* UIKit.framework in Frameworks */,
+				B17159D218D19993001DD69D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B17159A218D19992001DD69D = {
+			isa = PBXGroup;
+			children = (
+				B17159B418D19993001DD69D /* UITextViewHideBug */,
+				B17159D618D19993001DD69D /* UITextViewHideBugTests */,
+				B17159AD18D19993001DD69D /* Frameworks */,
+				B17159AC18D19993001DD69D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B17159AC18D19993001DD69D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B17159AB18D19993001DD69D /* UITextViewHideBug.app */,
+				B17159CF18D19993001DD69D /* UITextViewHideBugTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B17159AD18D19993001DD69D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B17159AE18D19993001DD69D /* Foundation.framework */,
+				B17159B018D19993001DD69D /* CoreGraphics.framework */,
+				B17159B218D19993001DD69D /* UIKit.framework */,
+				B17159D018D19993001DD69D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B17159B418D19993001DD69D /* UITextViewHideBug */ = {
+			isa = PBXGroup;
+			children = (
+				B17159BD18D19993001DD69D /* AppDelegate.h */,
+				B17159BE18D19993001DD69D /* AppDelegate.m */,
+				B17159C618D19993001DD69D /* ViewController.h */,
+				B17159C718D19993001DD69D /* ViewController.m */,
+				B17159E618D1B6D9001DD69D /* MyTextView.h */,
+				B17159E718D1B6D9001DD69D /* MyTextView.m */,
+				B17159C918D19993001DD69D /* Images.xcassets */,
+				B17159B518D19993001DD69D /* Supporting Files */,
+			);
+			path = UITextViewHideBug;
+			sourceTree = "<group>";
+		};
+		B17159B518D19993001DD69D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B17159B618D19993001DD69D /* UITextViewHideBug-Info.plist */,
+				B17159B718D19993001DD69D /* InfoPlist.strings */,
+				B17159BA18D19993001DD69D /* main.m */,
+				B17159BC18D19993001DD69D /* UITextViewHideBug-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B17159D618D19993001DD69D /* UITextViewHideBugTests */ = {
+			isa = PBXGroup;
+			children = (
+				B17159DC18D19993001DD69D /* UITextViewHideBugTests.m */,
+				B17159D718D19993001DD69D /* Supporting Files */,
+			);
+			path = UITextViewHideBugTests;
+			sourceTree = "<group>";
+		};
+		B17159D718D19993001DD69D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B17159D818D19993001DD69D /* UITextViewHideBugTests-Info.plist */,
+				B17159D918D19993001DD69D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B17159AA18D19993001DD69D /* UITextViewHideBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17159E018D19993001DD69D /* Build configuration list for PBXNativeTarget "UITextViewHideBug" */;
+			buildPhases = (
+				B17159A718D19992001DD69D /* Sources */,
+				B17159A818D19992001DD69D /* Frameworks */,
+				B17159A918D19992001DD69D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITextViewHideBug;
+			productName = UITextViewHideBug;
+			productReference = B17159AB18D19993001DD69D /* UITextViewHideBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B17159CE18D19993001DD69D /* UITextViewHideBugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17159E318D19993001DD69D /* Build configuration list for PBXNativeTarget "UITextViewHideBugTests" */;
+			buildPhases = (
+				B17159CB18D19993001DD69D /* Sources */,
+				B17159CC18D19993001DD69D /* Frameworks */,
+				B17159CD18D19993001DD69D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B17159D518D19993001DD69D /* PBXTargetDependency */,
+			);
+			name = UITextViewHideBugTests;
+			productName = UITextViewHideBugTests;
+			productReference = B17159CF18D19993001DD69D /* UITextViewHideBugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B17159A318D19992001DD69D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hayatomo.com;
+				TargetAttributes = {
+					B17159CE18D19993001DD69D = {
+						TestTargetID = B17159AA18D19993001DD69D;
+					};
+				};
+			};
+			buildConfigurationList = B17159A618D19992001DD69D /* Build configuration list for PBXProject "UITextViewHideBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B17159A218D19992001DD69D;
+			productRefGroup = B17159AC18D19993001DD69D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B17159AA18D19993001DD69D /* UITextViewHideBug */,
+				B17159CE18D19993001DD69D /* UITextViewHideBugTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B17159A918D19992001DD69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17159CA18D19993001DD69D /* Images.xcassets in Resources */,
+				B17159B918D19993001DD69D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17159CD18D19993001DD69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17159DB18D19993001DD69D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B17159A718D19992001DD69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17159C818D19993001DD69D /* ViewController.m in Sources */,
+				B17159E818D1B6D9001DD69D /* MyTextView.m in Sources */,
+				B17159BF18D19993001DD69D /* AppDelegate.m in Sources */,
+				B17159BB18D19993001DD69D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17159CB18D19993001DD69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17159DD18D19993001DD69D /* UITextViewHideBugTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B17159D518D19993001DD69D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17159AA18D19993001DD69D /* UITextViewHideBug */;
+			targetProxy = B17159D418D19993001DD69D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B17159B718D19993001DD69D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B17159B818D19993001DD69D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B17159D918D19993001DD69D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B17159DA18D19993001DD69D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B17159DE18D19993001DD69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B17159DF18D19993001DD69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B17159E118D19993001DD69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextViewHideBug/UITextViewHideBug-Prefix.pch";
+				INFOPLIST_FILE = "UITextViewHideBug/UITextViewHideBug-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B17159E218D19993001DD69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextViewHideBug/UITextViewHideBug-Prefix.pch";
+				INFOPLIST_FILE = "UITextViewHideBug/UITextViewHideBug-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B17159E418D19993001DD69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITextViewHideBug.app/UITextViewHideBug";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextViewHideBug/UITextViewHideBug-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UITextViewHideBugTests/UITextViewHideBugTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B17159E518D19993001DD69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITextViewHideBug.app/UITextViewHideBug";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextViewHideBug/UITextViewHideBug-Prefix.pch";
+				INFOPLIST_FILE = "UITextViewHideBugTests/UITextViewHideBugTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B17159A618D19992001DD69D /* Build configuration list for PBXProject "UITextViewHideBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17159DE18D19993001DD69D /* Debug */,
+				B17159DF18D19993001DD69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B17159E018D19993001DD69D /* Build configuration list for PBXNativeTarget "UITextViewHideBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17159E118D19993001DD69D /* Debug */,
+				B17159E218D19993001DD69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B17159E318D19993001DD69D /* Build configuration list for PBXNativeTarget "UITextViewHideBugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17159E418D19993001DD69D /* Debug */,
+				B17159E518D19993001DD69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B17159A318D19992001DD69D /* Project object */;
+}
